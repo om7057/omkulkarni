@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #0B0C10;
+    color: #C5C6C7;
+    font-family: 'Arial', sans-serif;
+    overflow-x: hidden; /* Prevent horizontal overflow */
+  }
+  
+
+  
+  .information-container,
+  .about-container,
+  .achievements-container,
+  .extracurricular-container,
+  .courses-container,
+  .skills-container {
+    width: 100%;
+    max-width: 1300px; /* Limit the width of each section */
+    margin: 20px auto; /* Center the sections and add spacing */
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2833;
+    color: #C5C6C7;
+    border: solid 2px #45A29E;
+    box-sizing: border-box; /* Ensure padding doesn't cause overflow */
+  }
+  

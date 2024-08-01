@@ -1,0 +1,14 @@
+.achievements-container {
+    padding: 20px;
+    background-color: #1F2833;
+    color: #C5C6C7;
+    border: solid 2px #45A29E;
+    margin: 20px auto;
+    border-radius: 10px;
+  }
+
+  .achievements-container h1{
+    padding: 10px 400px;
+  
+  }
+  

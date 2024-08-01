@@ -1,0 +1,43 @@
+.information-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  color: #C5C6C7;
+  border: solid 2px greenyellow;
+  width: 80%;
+  max-width: 800px;
+  margin: 100px auto;
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: #1F2833;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.image {
+  flex-shrink: 0;
+  margin-right: 20px;
+  padding-left: 100px;
+}
+
+.profile-image {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  
+  border: solid 2px rgb(42, 151, 165);
+}
+
+.info-details {
+  flex-grow: 1;
+}
+
+.info-details h1, .info-details h2 {
+  margin: 10px 0;
+  padding: 5px 300px;
+  
+  text-align: left;
+  border-radius: 5px;
+}

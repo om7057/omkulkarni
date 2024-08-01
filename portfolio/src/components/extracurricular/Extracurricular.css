@@ -1,0 +1,15 @@
+.extracurricular-container {
+  padding: 20px;
+  background-color: #1F2833;
+  color: #C5C6C7;
+  
+  border-radius: 10px;
+  border: solid 2px #45A29E;
+  margin: 20px auto; /* Center the container horizontally */
+  box-sizing: border-box; /* Ensure padding and border are included in the element's total width and height */
+}
+
+.extracurricular-container h1{
+  padding: 10px 410px;
+}
+

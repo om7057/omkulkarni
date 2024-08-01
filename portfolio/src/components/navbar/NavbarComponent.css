@@ -1,0 +1,50 @@
+:root {
+  --bg-gradient-onyx: linear-gradient(
+    to bottom right, 
+    hsl(240, 1%, 25%) 3%, 
+    hsl(0, 0%, 19%) 97%
+  );
+  --color-primary: #C5C6C7; /* Primary text color */
+  --color-hover: #45A29E;   /* Hover color */
+}
+
+.navbar {
+  background: var(--bg-gradient-onyx);
+  color: var(--color-primary);
+  padding: 20px 40px;
+  opacity: 0.9;
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.5);
+  position: sticky;
+  top: 0;
+  z-index: 1000; 
+}
+
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-brand {
+    font-size: 24px;
+    color: #66FCF1;
+    text-decoration: none;
+  }
+
+  .nav-links {
+    display: flex;
+    gap: 50px; 
+    margin-left: auto;
+
+  }
+
+  .nav-link {
+    color: #66FCF1;
+    text-decoration: none;
+    font-size: 25px;
+  }
+
+  .nav-link:hover {
+    text-decoration: underline;
+  }
